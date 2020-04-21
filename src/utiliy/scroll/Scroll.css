@@ -1,0 +1,10 @@
+.scroll {
+    /* overflow: scroll;
+    border: 0.1px;
+    height: 550px; */
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    
+    
+}
