@@ -4,13 +4,14 @@
   
   .heading {
     font-family: "Bigelow Rules";
-    font-size: 72px;
+    font-size: 60px;
     color: #0ccac4;
+    margin-top: 0rem;
   }
 
   h2{
       text-align: center;
       font-family: "Bigelow Rules";
       font-size: 60px;
-      color: #ffffff;
+      color: #000000;
   }
