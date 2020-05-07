@@ -7,6 +7,7 @@ import ErrorBoundry from '../components/error-boundry/ErrorBoundry';
 import { connect } from 'react-redux';
 import { setSearchField, requestRobots } from '../actions';
 import { searchRobotsReducer } from '../reducers';
+import Header from '../components/Header';
 
 
 
@@ -29,7 +30,7 @@ class App extends React.Component{
             :
                ( <div className="App">
                 <Scroll>
-                <h1 className="heading">ROBOFRIENDS</h1>
+                <Header />
                 <SearchBox searchChange = {handleSearchChange} />
                 </Scroll> 
                 <ErrorBoundry>
