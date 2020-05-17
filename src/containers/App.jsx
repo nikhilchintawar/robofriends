@@ -6,7 +6,6 @@ import Scroll from '../utiliy/scroll/Scroll';
 import ErrorBoundry from '../components/error-boundry/ErrorBoundry';
 import { connect } from 'react-redux';
 import { setSearchField, requestRobots } from '../actions';
-import { searchRobotsReducer } from '../reducers';
 import Header from '../components/Header';
 
 

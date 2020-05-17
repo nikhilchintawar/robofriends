@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import App from "./containers/App";
 import * as serviceWorker from './serviceWorker';
-import "tachyons";
 import {createLogger} from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 
